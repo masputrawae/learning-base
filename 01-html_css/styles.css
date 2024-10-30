@@ -1,0 +1,59 @@
+/* Layout */
+* {
+    margin: 0;
+    padding: 0;
+    text-size: 12px;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(59, 59, 59, 1) 100%);
+    display: grid;
+    grid:
+    "header header header" auto
+    "main main main" 1fr
+    "footer footer footer" auto
+    / auto 1fr auto;
+    gap: 8px;
+}
+header { grid-area: header; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+header, aside, main, footer{
+    padding: 1.5rem;
+    border: 1px solid #ab7800;
+    border-radius: 5px; 
+    background-color: #1a1a1a;
+    box-shadow: 1px 1px 5px 0px rgba(5, 2, 0, 1);
+}
+/* Style */
+header h1{
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    color: gold;
+}
+header ul{
+    list-style: none;
+    text-align: center;
+}
+header a{
+    color: silver;
+    text-decoration: none;
+}
+header a:hover{
+    color: gold;
+}
+#tentang, #layanan, #kontak{
+    text-align: center;
+    margin: 10px;
+    background-color: #ffffff51;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ab7800;
+    color: #ffdd00;
+    box-shadow: 1px 1px 5px 0px rgba(5, 5, 5, 1);
+}
+p, footer{
+    color: silver;
+    text-align: center;
+}

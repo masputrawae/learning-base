@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="proyek">
+            <h2>Proyek Terbaru</h2>
+            <div class="proyek">
+                <article class="card">
+                    <h3>Website Sederhana</h3>
+                    <p>Proyek website sederhana untuk belajar HTML dan CSS.</p>
+                </article>
+                <article class="card">
+                    <h3>Aplikasi Catatan</h3>
+                    <p>Proyek aplikasi catatan untuk mencatat hal-hal penting sehari-hari.</p>
+                </article>
+                <article class="card">
+                    <h3>Desain Portofolio</h3>
+                    <p>Desain portofolio untuk menampilkan proyek dan keahlian saya.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skill">
+            <h2>Keahlian Saya</h2>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Desain Grafis</li>
+            </ul>
+        </section>
+
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form action="#">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nama Anda. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
