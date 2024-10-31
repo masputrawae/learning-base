@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-colr: #59370e;
+    margin: 1rem;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(100deg, #4c4c4c 0%, #2b2b2b 100%);
+    filter: drop-shadow(5px 5px 10px #ffffff97);
+}
+header{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #312700;
+    background-color: silver;
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+    color: #312700; 
+}
+ul{
+    list-style:none;
+}
+header a{
+    text-decoration:none;
+    color: #00000086;
+}
+header a:hover {
+    color: #312700;
+    font-weight: bold;
+}
+
+#proyek{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+h3{
+    color: #564300
+}
+.card{
+    margin: 20px;
+    padding: 20px;
+    background-color: silver;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 1px #000000;
+    border: 2px solid #312700;
+    transition: transform 1s ease 0s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+h2{
+    color: #181818fb;
+}
+
+#kontak{
+    background-color: silver;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 1px #312700;
+    text-align: center;
+}
+#skill{
+    border: 2px solid black;
+    background: #717171; 
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+button, #message, #email, #name, button{
+    border: 1px solid #312700;
+    border-radius: 3px;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    margin: 0.5rem auto;
+    display: block;
+}
+}
+footer{
+    margin-top: 30px; 
+    text-align: center;
+    color: white;
+}
